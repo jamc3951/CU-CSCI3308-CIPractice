@@ -1,6 +1,6 @@
 os: linux
+language: c
 script: make dep && make && make test
 sudo: required
-language: c
 install: sudo apt-get update
 
